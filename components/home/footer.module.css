@@ -1,0 +1,40 @@
+.footer {
+	background-color: #f9fbfc;
+	border-top: 1px solid var(--border-color);
+	height: 86px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 24px;
+	cursor: pointer;
+}
+
+.copy {
+	font-size: 16px;
+	color: rgb(162, 184, 190);
+}
+
+.content-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+@media (max-width: 639px) {
+	.footer {
+		height: 120px;
+	}
+	.content-wrapper {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.copy {
+		font-size: 15px;
+	}
+	.logo {
+		height: 22px;
+	}
+}

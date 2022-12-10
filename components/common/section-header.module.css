@@ -1,0 +1,34 @@
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-image {
+	width: 64px;
+	margin-right: 16px;
+}
+
+.center {
+	align-items: center;
+	text-align: center;
+}
+
+@media (max-width: 1024px) {
+	.header-image {
+		width: 56px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header-image {
+		width: 48px;
+		margin-right: 12px;
+	}
+}
+
+@media (max-width: 639px) {
+	.header-image {
+		width: 44px;
+		margin-right: 8px;
+	}
+}

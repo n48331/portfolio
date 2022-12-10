@@ -1,0 +1,84 @@
+.email-icon-wrapper {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+	background: var(--yellow-gradient);
+	box-shadow: 0px 4px 12px var(--yellow-shadow-color);
+	margin-right: 12px;
+}
+.email-icon-wrapper img {
+	width: 24px;
+	height: 24px;
+}
+
+.email {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.social-wrapper {
+	height: 140px;
+	display: flex;
+	align-items: center;
+	padding: 0 44px;
+	border: 1px solid var(--border-color);
+	border-radius: 12px;
+	width: fit-content;
+	margin: 0 auto;
+	gap: 44px;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(6.5px);
+	-webkit-backdrop-filter: blur(6.5px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.social-icon-wrapper {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+	background: var(--blue-gradient);
+	box-shadow: 0px 8px 18px var(--blue-shadow-color);
+}
+
+.github {
+	background: var(--github-gradient);
+	box-shadow: 0px 8px 18px var(--github-shadow-color);
+}
+.linkedin {
+	background: var(--linkedin-gradient);
+	box-shadow: 0px 8px 18px var(--linkedin-shadow-color);
+}
+.instagram {
+	background: var(--instagram-gradient);
+	box-shadow: 0px 8px 18px var(--instagram-shadow-color);
+}
+.dribbble {
+	background: var(--dribbble-gradient);
+	box-shadow: 0px 8px 18px var(--dribbble-shadow-color);
+}
+.whatsapp {
+	background: var(--whatsapp-gradient);
+	box-shadow: 0px 8px 18px var(--whatsapp-shadow-color);
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 639px) {
+	.email {
+		font-size: 28px;
+	}
+
+	.social-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		height: auto;
+		padding: 32px;
+		gap: 32px;
+	}
+}

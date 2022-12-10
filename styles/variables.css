@@ -1,0 +1,32 @@
+:root {
+	--border-color: #d6e5ed;
+	--text-grey: #949494;
+	--text-light: #879ba6;
+
+	--blue-gradient: linear-gradient(319.59deg, #0046fa 6.98%, #48d3ff 91%);
+	--light-blue-gradient: linear-gradient(318.29deg, #0072dc 10.78%, #06f0ff 88.71%);
+	--green-gradient: linear-gradient(318.29deg, #00b929 10.78%, #afff06 88.71%);
+	--purple-gradient: linear-gradient(319.59deg, #6100ff 6.98%, #ba48ff 91%);
+	--orange-gradient: linear-gradient(319.59deg, #ff0000 6.98%, #fbff48 91%);
+	--orange-pink-gradient: linear-gradient(319.59deg, #ff00b8 6.98%, #ffba31 91%);
+	--yellow-gradient: linear-gradient(132.51deg, #ffef62 0%, #ffcb11 100%);
+
+	--github-gradient: linear-gradient(319.59deg, #000000 6.98%, #989898 91%);
+	--linkedin-gradient: linear-gradient(319.59deg, #2329b9 6.98%, #59cdff 91%);
+	--instagram-gradient: linear-gradient(319.59deg, #6d62ed 6.98%, #f5149b 51.18%, #fbff48 91%);
+	--dribbble-gradient: linear-gradient(319.59deg, #dd0f8a 6.98%, #ff9cc0 91%);
+	--whatsapp-gradient: linear-gradient(319.59deg, #0ba03e 6.98%, #6ff07c 91%);
+
+	--blue-shadow-color: rgba(75, 190, 255, 0.71);
+	--light-blue-shadow-color: rgba(101, 227, 255, 0.65);
+	--green-shadow-color: rgba(176, 255, 75, 0.65);
+	--purple-shadow-color: rgba(125, 64, 255, 0.5);
+	--orange-shadow-color: rgba(255, 150, 91, 0.74);
+	--yellow-shadow-color: #ffed5b;
+
+	--github-shadow-color: rgba(177, 177, 177, 0.74);
+	--linkedin-shadow-color: rgba(133, 196, 255, 0.74);
+	--instagram-shadow-color: rgba(232, 166, 255, 0.74);
+	--dribbble-shadow-color: rgba(255, 140, 161, 0.74);
+	--whatsapp-shadow-color: rgba(140, 255, 186, 0.74);
+}
