@@ -1,6 +1,6 @@
 .conatiner {
 	display: flex;
 	flex-direction: column;
-	gap: 220px;
+	gap: 120px;
 }
 /* flex flex-col gap-[220px] md:gap-[160px] */

@@ -15,14 +15,15 @@ export default function Contact() {
 					imageUrl='/images/contact.png'
 					type='center'
 				/>
-				<a href='mailto:mnabeel4477@gmail.com'>
+				{/* <a href='mailto:mnabeel4477@gmail.com'>
 					<div className='my-[64px] mx-auto flex items-center w-fit'>
 						<div className={styles['email-icon-wrapper']}>
 							<img src='/icons/email.svg' />
 						</div>
 						<span className={styles['email']}>mnabeel4477@gmail.com</span>
 					</div>
-				</a>
+				</a> */}{' '}
+				<br />
 				<div className={styles['social-wrapper']}>
 					<a href={socialLinks.github} target='_blank' rel='noreferrer noopener'>
 						<div className={styles['social-icon-wrapper'] + ' ' + styles['github']}>
@@ -47,6 +48,11 @@ export default function Contact() {
 					<a href={socialLinks.whatsapp} target='_blank' rel='noreferrer noopener'>
 						<div className={styles['social-icon-wrapper'] + ' ' + styles['whatsapp']}>
 							<img src='/icons/whatsapp.svg' />
+						</div>
+					</a>
+					<a href={socialLinks.email} target='_blank' rel='noreferrer noopener'>
+						<div className={styles['social-icon-wrapper'] + ' ' + styles['email-icon-wrapper']}>
+							<img src='/icons/email.svg' />
 						</div>
 					</a>
 				</div>

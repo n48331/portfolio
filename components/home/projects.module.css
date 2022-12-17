@@ -57,6 +57,7 @@
 	color: var(--text-light);
 	font-size: 18px;
 	max-width: 450px;
+	margin-bottom: 1rem;
 }
 
 .button {

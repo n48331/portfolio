@@ -45,23 +45,11 @@ function ProjectCard({ title, description, tag, link, imageUrl, buttonText }) {
 				<p className={styles['card-description']}>{description} </p>
 
 				<Link href={link} passHref rel='noreferrer noopener' target='_blank'>
-					<button className='colorful-button light button'>
+					<button className='button'>
 						<div className='wrapper'>
 							<span style={{ display: 'flex', justifyContent: 'center', gap: '.5rem' }}>
 								{buttonText || 'Visit site'} <img src='/icons/arrow-right-up.svg' />
 							</span>
-							<div className='circle circle-12'></div>
-							<div className='circle circle-11'></div>
-							<div className='circle circle-10'></div>
-							<div className='circle circle-9'></div>
-							<div className='circle circle-8'></div>
-							<div className='circle circle-7'></div>
-							<div className='circle circle-6'></div>
-							<div className='circle circle-5'></div>
-							<div className='circle circle-4'></div>
-							<div className='circle circle-3'></div>
-							<div className='circle circle-2'></div>
-							<div className='circle circle-1'></div>
 						</div>
 					</button>
 				</Link>
