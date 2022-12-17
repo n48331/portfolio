@@ -15,12 +15,12 @@ export default function Contact() {
 					imageUrl='/images/contact.png'
 					type='center'
 				/>
-				<a href='mailto:'>
+				<a href='mailto:mnabeel4477@gmail.com'>
 					<div className='my-[64px] mx-auto flex items-center w-fit'>
 						<div className={styles['email-icon-wrapper']}>
 							<img src='/icons/email.svg' />
 						</div>
-						<span className={styles['email']}>hello@ecris.in</span>
+						<span className={styles['email']}>mnabeel4477@gmail.com</span>
 					</div>
 				</a>
 				<div className={styles['social-wrapper']}>

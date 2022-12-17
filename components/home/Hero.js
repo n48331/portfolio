@@ -54,11 +54,11 @@ export default function Hero() {
 							</Link>
 						</div>
 					</div>
-					<Lottie
+					{/* <Lottie
 						animationData={groovyWalkAnimation}
 						loop={true}
 						className={styles['hero-image']}
-					/>
+					/> */}
 					{/* <img src='/images/hero.svg' className={styles['hero-image']} /> */}
 				</div>
 			</div>
