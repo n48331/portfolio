@@ -58,6 +58,14 @@
 	background: var(--light-blue-gradient);
 	box-shadow: 0 8px 18px var(--light-blue-shadow-color);
 }
+.malayalam {
+	background: var(--green-gradient);
+	box-shadow: 0 8px 18px var(--green-shadow-color);
+}
+.hindi {
+	background: var(--light-blue-gradient);
+	box-shadow: 0 8px 18px var(--light-blue-shadow-color);
+}
 
 @media (max-width: 767px) {
 	.cards-grid {

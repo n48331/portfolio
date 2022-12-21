@@ -14,7 +14,7 @@ export default function Hero() {
 						<h1>Hi, I&apos;m Nabeel</h1>
 						<p>Full Stack Developer</p>
 						<div className={styles['cta-wrapper']}>
-							<Link href='/#projects' passHref>
+							<Link href='https://n48331.github.io/myresume/' passHref>
 								<button className='button resume'>Resume</button>
 							</Link>
 

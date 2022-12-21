@@ -36,20 +36,6 @@ export default function Langauages() {
 						<span className={styles['language-title']}>Hindi</span>
 						<span className={styles['language-description']}>Fluent</span>
 					</div>
-					<div className={styles['card']}>
-						<div className={styles['icon-wrapper'] + ' ' + styles['hindi']}>
-							<img src='/icons/hindi.svg' />
-						</div>
-						<span className={styles['language-title']}>Tamil</span>
-						<span className={styles['language-description']}>Limited</span>
-					</div>
-					<div className={styles['card']}>
-						<div className={styles['icon-wrapper'] + ' ' + styles['hindi']}>
-							<img src='/icons/hindi.svg' />
-						</div>
-						<span className={styles['language-title']}>Arabic</span>
-						<span className={styles['language-description']}>Limited</span>
-					</div>
 				</div>
 			</div>
 		</div>
