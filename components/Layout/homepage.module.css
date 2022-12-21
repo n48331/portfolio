@@ -5,15 +5,15 @@
 		rgba(110, 123, 251, 1) 91.1%
 	);
 } */
-.body {
+/* .body {
 	background-image: url('/images/bg.jpg');
 	background-position: center;
-}
+} */
 
 .container {
 	display: flex;
 	flex-direction: column;
-	gap: 220px;
+	gap: 120px;
 	background: rgba(255, 255, 255, 0.25);
 	backdrop-filter: blur(5px);
 }
